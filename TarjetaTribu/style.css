@@ -1,0 +1,50 @@
+h1{
+    color: red;
+    font-size: 20pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+
+ol{
+    margin: 10px;
+}
+#subIntegrantes{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+#fondo{
+    background-color: gray;
+    border-radius: 25px;
+    margin: 10px;
+    width: 500px;
+    overflow: auto;
+}
+
+#fondoImagen{
+    background-color: yellow;
+    width: 180px;
+    height: 180px;
+    align-content: center;
+    margin: 10px;
+    float: left;
+    position: relative;
+
+}
+#imagen{
+    position: relative;
+}
+
+#integrantes{
+    margin: 10px;
+    color: white;
+    background-color: blue;
+    float: right;
+    border-radius: 20px
+}

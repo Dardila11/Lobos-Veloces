@@ -20,29 +20,35 @@ ol{
 
 
 #fondo{
-    background-color: gray;
+    background-color: purple;
     border-radius: 25px;
     margin: 10px;
     width: 500px;
     overflow: auto;
+    
 }
 
 #fondoImagen{
-    background-color: yellow;
-    width: 180px;
-    height: 180px;
-    align-content: center;
-    margin: 10px;
+    background-color: rgb(31, 28, 28);
+    width: 150px;
+    height: 150px;
+    margin-left: 15px;
     float: left;
-    position: relative;
-
+    border-radius: 50%;
+    /*
+    utilizado para centrar la imagen
+    en el div
+    */
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 #imagen{
-    position: relative;
+    border-radius: 50%;
 }
 
 #integrantes{
-    margin: 10px;
+    margin: 15px;
     color: white;
     background-color: blue;
     float: right;

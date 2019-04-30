@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(34, 36, 58);
+}
+
+.container{
+    width: 650px;
+    height: 200px;
+    background-color: rgb(32, 30, 30);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
+}
+
+.container #paloma{
+    position: absolute;
+}
+
+.btn{
+    width: 160px;
+    padding: 17px;
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(42, 46, 92);
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    color: white;
+  }

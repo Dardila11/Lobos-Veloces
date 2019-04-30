@@ -2,7 +2,7 @@ h1{
     color: white;
 }
 #fondo{
-    background-color: purple;
+    background-color: rgb(32, 27, 54);
     margin: 0px;
     /*
     utilizado para centrar la imagen
@@ -15,7 +15,7 @@ h1{
 }
 
 #fondoLogoTribu{
-    background-color: rgb(31, 28, 28);
+    background-color: rgb(28, 28, 31);
     width: 150px;
     height: 150px;
     margin: 15px;

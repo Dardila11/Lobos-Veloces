@@ -1,0 +1,9 @@
+Crear un página con un conjunto de 3 fotos de políticos del senado.
+
+Agrega un botón que:
+
+Anime las fotos moviéndose en varios sentidos así: 
+El primero de arriba a abajo.
+el segundo de izquierda a derecha. 
+el tercero en diagonal. 
+El movimiento debe ser continuo e infinito (cuando llegue a un punto se devuelve en el sentido contario)

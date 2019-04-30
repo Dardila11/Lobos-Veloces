@@ -1,0 +1,6 @@
+Crear una página de una noticia con fecha. 
+Crear un código en JS que modifique el año de la fecha de la noticia cuando se presiona la tecla “arriba” en el teclado.
+
+Cómo máximo se debe llegar al año 2010.
+
+Cuando se llega al año 2019 imprime el texto (arriba del título de la noticia) "Esta noticia es del futuro"

@@ -1,0 +1,2 @@
+Haz que cuando se pase el mouse por encima de la foto de un politico 
+aparezca la foto de la llorona y se reproduzca un sonido de grito.

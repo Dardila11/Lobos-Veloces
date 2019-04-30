@@ -1,0 +1,3 @@
+Incluye un botón que haga aparecer un texto gracioso sobre la foto de un político. 
+El texto debe aparecer sobre la foto superponiéndose. 
+El texto debe escribirse en una fuente "sangrienta" o "pegajosa"

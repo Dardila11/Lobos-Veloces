@@ -1,0 +1,2 @@
+Haz que cuando se pase el mouse por encima de la foto de un político 
+aparezca maquillado y con labios pintados.

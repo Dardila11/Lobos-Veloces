@@ -1,0 +1,2 @@
+Incluye un botón que convierta un artículo de noticias 
+(la noticia puede ser tomada de internet) en una versión rosa con unicornios.

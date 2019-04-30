@@ -1,0 +1,17 @@
+Crear una función en JavaScript que dado un título de una noticia, se transforma las vocales del titulo así:
+
+A = Rombo
+
+E = Pica
+
+I = Corazón
+
+O = Carita Feliz
+
+U = Carita triste
+
+El algoritmo debe servir para cualquier título.
+
+Poner una caja de texto que permita recibir el texto del título de la noticia y un botón que cambia el texto.
+
+Poner un botón que cambia las vocales.

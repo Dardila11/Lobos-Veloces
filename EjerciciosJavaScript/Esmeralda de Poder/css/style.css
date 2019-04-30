@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(34, 36, 58);
+}
+
+.divImagen{
+    width: 450px;
+    height: 450px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: relative;
+    background-color: rgb(32, 30, 30);
+    display: inline-block;
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.divImagen img{
+    width: 80%;
+    height: 80%;
+
+}
+
+#texto{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: red;
+  
+}
+
+.btn{
+    width: 160px;
+    padding: 17px;
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(42, 46, 92);
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    color: white;
+  }

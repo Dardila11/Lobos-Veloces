@@ -3,6 +3,8 @@ function toggleText(hide){
 
     if(hide == true){
         text.style.display = 'block';
+        text.style.fontFamily = 'Bloody';
+        text.style.fontSize = "30px";
     }else{
         text.style.display = 'none';
     }

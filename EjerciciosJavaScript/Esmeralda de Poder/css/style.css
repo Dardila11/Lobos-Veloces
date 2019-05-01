@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(34, 36, 58);
+    background-color: rgb(27, 28, 48);
 }
 
 .divImagen{
@@ -33,8 +33,6 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 18px;
   font-weight: 800;
   color: red;
@@ -47,16 +45,15 @@ body{
     margin: auto;
     border: none;
     border-radius: 20px;
-    background-color: rgb(42, 46, 92);
+    background-color: rgb(116, 123, 206);
     color: white;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-
     cursor: pointer;
-    display: inline-block;
     position: relative;
     transition: 0.5s;
     color: white;
+    margin-top: 15px;
   }

@@ -38,6 +38,8 @@ function topToBotton(){
         palomaImg.style.top = posicion + "px"
         palomaImg.style.bottom = posicion + "px"
 
+        
+
     }
 }
 

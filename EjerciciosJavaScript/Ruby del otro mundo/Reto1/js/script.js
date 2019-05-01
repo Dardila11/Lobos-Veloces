@@ -10,7 +10,6 @@ function CambiarVocales() {
         textocambiado = textoACambiar(texto,textocambiado);
         document.getElementById("texto").innerHTML=textocambiado;
     }
-    
   }
   function textoACambiar(texto,textocambiado){
     for(i=0;i<texto.length;i++)
@@ -18,7 +17,6 @@ function CambiarVocales() {
       if(texto[i]=='a' || texto[i]=='A')
       {   textocambiado = texto.replace(/a/i,"&#9826");//rombo
           texto = textocambiado;
-
       }
       if(texto[i]=='e' || texto[i]=='E')
       {   textocambiado = texto.replace(/e/i,"&#9824"); //pica
@@ -39,7 +37,8 @@ function CambiarVocales() {
       {   textocambiado = texto.replace(/u/i,"&#9785");//carita triste
           texto = textocambiado;
       }
+
     }
-    return textocambiado;
+    return texto;
 
   }

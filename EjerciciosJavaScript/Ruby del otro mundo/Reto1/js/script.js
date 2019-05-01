@@ -1,6 +1,18 @@
 function CambiarVocales() {
     var texto = document.getElementById("texto").innerHTML;
+    var textoInput = document.getElementById("titulo").value;
     var  textocambiado;
+    var textocambiadoInput;
+    if(textoInput.length != 0){
+        textocambiadoInput = textoACambiar(textoInput,textocambiadoInput);
+        document.getElementById("textoCambiadoInput").innerHTML= textocambiadoInput;
+    }
+    textocambiado = textoACambiar(texto,textocambiado);
+    document.getElementById("textocambiado").innerHTML=textocambiado;
+    
+  }
+
+  function textoACambiar(texto,textocambiado){
     for(i=0;i<texto.length;i++)
     {
       if(texto[i]=='a' || texto[i]=='A')
@@ -29,7 +41,5 @@ function CambiarVocales() {
 
       }
     }
-
-    document.getElementById("textocambiado").innerHTML=textocambiado;
-
+    return textocambiado;
   }

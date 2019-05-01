@@ -1,17 +1,17 @@
 function CambiarVocales() {
     var texto = document.getElementById("texto").innerHTML;
-    var textoInput = document.getElementById("titulo").value;
-    var  textocambiado;
+    var textoInput = document.getElementById("tituloInput").value;
+    var textocambiado;
     var textocambiadoInput;
     if(textoInput.length != 0){
-        textocambiadoInput = textoACambiar(textoInput,textocambiadoInput);
-        document.getElementById("textoCambiadoInput").innerHTML= textocambiadoInput;
+        textocambiado = textoACambiar(textoInput,textocambiado);
+        document.getElementById("texto").innerHTML = textocambiado;
+    }else{
+        textocambiado = textoACambiar(texto,textocambiado);
+        document.getElementById("texto").innerHTML=textocambiado;
     }
-    textocambiado = textoACambiar(texto,textocambiado);
-    document.getElementById("textocambiado").innerHTML=textocambiado;
     
   }
-
   function textoACambiar(texto,textocambiado){
     for(i=0;i<texto.length;i++)
     {
@@ -38,9 +38,8 @@ function CambiarVocales() {
       if(texto[i]=='u' || texto[i]=='U')
       {   textocambiado = texto.replace(/u/i,"&#9785");//carita triste
           texto = textocambiado;
-
       }
     }
     return textocambiado;
-    
+
   }

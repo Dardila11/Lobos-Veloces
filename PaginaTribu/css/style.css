@@ -1,34 +1,55 @@
-h1{
-    color: white;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-#fondo{
-    background-color: rgb(32, 27, 54);
-    margin: 0px;
-    /*
-    utilizado para centrar la imagen
-    en el div
-    */
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    
+.topnav{
+    background-color: #333;
+    overflow: hidden;
 }
 
-#fondoLogoTribu{
-    background-color: rgb(28, 28, 31);
-    width: 150px;
-    height: 150px;
-    margin: 15px;
+.topnav a{
     float: left;
-    border-radius: 50%;
-    /*
-    utilizado para centrar la imagen
-    en el div
-    */
-    align-items: center;
-    display: flex;
-    justify-content: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px
 }
-#logoTribu{
-    border-radius: 50%;
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.galeria {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.imagenes {
+    width: 25%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagenes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.acerca-de{
+    margin: 10px;
+    text-align: justify;
+}
+
+.acerca-de .sobre-nosotros{
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 600;
 }

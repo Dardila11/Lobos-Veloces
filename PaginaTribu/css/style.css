@@ -3,9 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'open sans';
+    font-size: 16px;
+}
 .topnav{
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #333;
     overflow: hidden;
+    z-index: 1;
 }
 
 .topnav a{
@@ -53,6 +62,59 @@
     margin-bottom: 10px;
     font-weight: 600;
 }
+
+.sobre-nosotros {
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.slogan {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.parrafo {
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: rgb(24, 16, 16);
+}
+
+.cards {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cards img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.card {
+    margin: 20px 0;
+    width: 30%;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 0 rgba(52, 73, 94, 0.849);
+}
+
+.card p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+
 
 input[type=text], select, textarea {
     width: 100%;

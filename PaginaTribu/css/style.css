@@ -59,14 +59,14 @@ body {
     padding: 180px 0;
 }
 
-.acerca-de #sobre-nosotros{
+.acerca-de .sobre-nosotros{
     text-align: center;
     font-size: 60px;
     margin-bottom: 50px;
     font-weight: 600;
 }
 
-#sobre-nosotros{
+.sobre-nosotros{
     text-align: center;
     font-size: 60px;
     margin-bottom: 10px;

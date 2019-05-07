@@ -56,20 +56,19 @@ body {
     text-align: justify;
 }
 
-.acerca-de .sobre-nosotros{
+.acerca-de #sobre-nosotros{
     text-align: center;
     font-size: 56px;
     margin-bottom: 10px;
     font-weight: 600;
 }
 
-.sobre-nosotros {
+#sobre-nosotros{
     text-align: center;
-    font-size: 56px;
+    font-size: 40px;
     margin-bottom: 10px;
     font-weight: 600;
 }
-
 .slogan {
     font-size: 24px;
     font-weight: 300;
@@ -78,11 +77,15 @@ body {
 }
 
 .parrafo {
-    margin-bottom: 13px;
     font-weight: 300;
+    margin: 0 60px 13px 60px;
     text-align: justify;
     line-height: 24px;
     color: rgb(24, 16, 16);
+}
+
+#integrantes{
+    margin: 0 60px 0 60px;
 }
 
 .cards {

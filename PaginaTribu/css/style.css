@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: 'open sans';
-    font-size: 16px;
+    font-family: 'calibri';
+    font-size: 22px;
 }
 .topnav{
     position: fixed;
@@ -23,7 +23,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px
+    font-size: 17px;
 }
 .topnav a:hover {
     background-color: #ddd;
@@ -36,6 +36,7 @@ body {
     display: flex;
     position: relative;
     flex-wrap: wrap;
+    top: 49px;
 }
 
 .imagenes {
@@ -52,20 +53,22 @@ body {
 }
 
 .acerca-de{
-    margin: 10px;
-    text-align: justify;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 180px 0;
 }
 
 .acerca-de #sobre-nosotros{
     text-align: center;
-    font-size: 56px;
-    margin-bottom: 10px;
+    font-size: 60px;
+    margin-bottom: 50px;
     font-weight: 600;
 }
 
 #sobre-nosotros{
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 10px;
     font-weight: 600;
 }
@@ -78,9 +81,8 @@ body {
 
 .parrafo {
     font-weight: 300;
-    margin: 0 60px 13px 60px;
-    text-align: justify;
-    line-height: 24px;
+    text-align: center;
+    line-height: 25px;
     color: rgb(24, 16, 16);
 }
 
@@ -104,16 +106,17 @@ body {
 }
 
 .card {
-    margin: 20px 0;
-    width: 30%;
-    height: 250px;
+    display: block;
+    margin: 30px 0;
+    width: 35%;
+    height: 240px;
     text-align: center;
     padding: 20px;
-    box-shadow: 0px 0px 4px 0 rgba(52, 73, 94, 0.849);
+    box-shadow: 0px 2px 4px 0 rgba(52, 73, 94, 0.849);
 }
 
 .card p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Tahoma', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
 }
 

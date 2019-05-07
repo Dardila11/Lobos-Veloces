@@ -67,24 +67,33 @@
             <h2 class="form-contactanos">Contáctanos</h2>
             <div class="formulario-footer">
                 <form action="">
-                    <label for="fname">Nombre</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Tu nombre..." >
-                    <label for="flastname">Apellido</label> 
-                    <input type="text" id="flastname" name="lastname" placeholder="Tu apellido..." ><br/>
-                    <label for="femail">Email</label>
-                    <input type="email" id="femail" name="email" placeholder="Tu email..." >
-                    <label for="fgender">Sexo</label>
-                    <select id="fgender" name="gender">
+                    <input type="text" id="fname" name="firstname" placeholder="Nombre" >                    
+                    <input type="text" id="flastname" name="lastname" placeholder="Apellido" >
+                    
+                    <input type="email" id="femail" name="email" placeholder="Email" >
+                    
+                    
+                    <select style="width:120px" id="fgender" name="gender">
+                        <option value="">Sexo</option>
                         <option value="mujer">Mujer</option>
                         <option value="hombre">Hombre</option>
-                    </select><br/>
-                    <label for="fcountry">País</label>
-                    <select id="fcountry" name="country">
-                        <option value="australia">Colombia</option>
-                        <option value="canada">Ecuador</option>
-                        <option value="usa">Estados Unidos</option>
-                        <option value="usa">Venezuela</option>
-                    </select><br/>
+                        
+                    </select>
+                    
+                    <select style="width:120px" id="fcountry" name="country">
+                        <option value="">Pais</option>
+                        <option value="colombia">Colombia</option>
+                        <option value="ecuador">Ecuador</option>
+                        <option value="estadosUnidos">Estados Unidos</option>
+                        <option value="venezuela">Venezuela</option>
+                    </select>
+                    <select style="width:120px" id="fcity" name="city">
+                        <option value="">Ciudad</option>
+                        <option value="popayan">Popayan</option>
+                        <option value="medellin">Medellin</option>
+                       
+                    </select>
+                    <br></br>
                     <label for="fsugerencia">Sugerencias</label><br/>
                     <textarea type="text" id="fsugerencia" name="sugerencia" placeholder="Escribe tu sugerencia..." ></textarea> <br/>
                     <button type="submit">Enviar Sugerencia</button>

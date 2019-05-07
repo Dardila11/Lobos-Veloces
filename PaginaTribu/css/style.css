@@ -59,20 +59,19 @@ body {
     padding: 180px 0;
 }
 
-.acerca-de .sobre-nosotros{
+.acerca-de #sobre-nosotros{
     text-align: center;
     font-size: 60px;
     margin-bottom: 50px;
     font-weight: 600;
 }
 
-.sobre-nosotros {
+#sobre-nosotros{
     text-align: center;
     font-size: 60px;
     margin-bottom: 10px;
     font-weight: 600;
 }
-
 .slogan {
     font-size: 24px;
     font-weight: 300;
@@ -81,11 +80,14 @@ body {
 }
 
 .parrafo {
-    margin-bottom: 13px;
     font-weight: 300;
     text-align: center;
     line-height: 25px;
     color: rgb(24, 16, 16);
+}
+
+#integrantes{
+    margin: 0 60px 0 60px;
 }
 
 .cards {

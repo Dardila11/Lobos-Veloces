@@ -14,12 +14,12 @@
         <a href="#formulario">Sugerencias</a>
     </nav>
 
-    <section class="galeria">
+    <div class="galeria">
         <div class="imagenes"><img src = "img/lobos/lobo-1.jpg" alt=""></div>
         <div class="imagenes"><img src = "img/lobos/lobo-2.jpg" alt=""></div>
         <div class="imagenes"><img src = "img/lobos/lobo-3.jpg" alt=""></div>
         <div class="imagenes"><img src= "img/lobos/lobo-5.jpg" alt=""></div>
-    </section>
+    </div>
     
 
     <section class="acerca-de" id="acerca">
@@ -66,7 +66,7 @@
         <div id="formulario">
             <h2 class="form-contactanos">Contáctanos</h2>
             <div class="formulario-footer">
-                <form action="">
+                <form action="enviar_sugerencia.php">
                     <input type="text" id="fname" name="firstname" placeholder="Nombre" >                    
                     <input type="text" id="flastname" name="lastname" placeholder="Apellido" >
                     
@@ -93,9 +93,9 @@
                         <option value="medellin">Medellin</option>
                        
                     </select>
-                    <br></br>
+                    <br/>
                     <label for="fsugerencia">Sugerencias</label><br/>
-                    <textarea type="text" id="fsugerencia" name="sugerencia" placeholder="Escribe tu sugerencia..." ></textarea> <br/>
+                    <textarea id="fsugerencia" name="sugerencia" placeholder="Escribe tu sugerencia..." ></textarea> <br/>
                     <button type="submit">Enviar Sugerencia</button>
                 </form>
             </div>

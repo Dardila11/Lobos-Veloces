@@ -37,14 +37,25 @@ body {
 .principal{
     width: 100%;
     height: 450px;
-    background-color: grey;
+    background-image: url('../img/ardila/ojos_lobo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     position: relative;
     overflow: hidden;
     display: flex;
     position: relative;
     flex-wrap: wrap;
     top: 48px;
+
 }
+
+#container-info{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(19, 19, 19, 0.8);;
+}
+
 
 .principal img {
     position: absolute;
@@ -53,6 +64,9 @@ body {
 }
 
 .info p{
+    position: absolute;
+    top: 60px;
+    left: 15px;
     color: white;
 }
 
@@ -61,7 +75,7 @@ body {
     height: 350px;
     top: 50px;
     left: 35%;
-    background-color: grey;
+    background-color: transparent;
     position: absolute;
     float: right;
 }

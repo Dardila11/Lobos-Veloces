@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style-ardila.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <script src="js/slide.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -16,30 +18,59 @@
     </nav>
     
     <div class="principal">
-        <img src="img/mage.png" width="250" height="400" alt="avatar-ardila">
-        <div class="info">
-            <p> <b>Nombre:</b> Daniel Enrique Ardila.<br/>
-                <b>Ocupación:</b> Estudiante de Ingeniería de Sistemas<br/>
-                <b>Universidad:</b> Unicauca.<br/>
-                <b>Cumpleaños:</b> 1 de Febrero de 1995<br/>
-                <b>Lugar de Nacimiento:</b> Popayán (Cauca).<br/>
-                <b>Celular:</b> 3503455412<br/>
-                <b>Hobbies:</b> Programar, Cine, Escuchar Musica.<br/>
-                <b>Rol en la Tribu Lobos Veloces:</b> Lider - Mago.
-            </p>
+        <div id="container-info">
+            <img src="img/mage.png" width="250" height="400" alt="avatar-ardila">
+            <div class="info">
+                <p> <b>Nombre:</b> Daniel Enrique Ardila.<br/>
+                    <b>Ocupación:</b> Estudiante de Ingeniería de Sistemas<br/>
+                    <b>Universidad:</b> Unicauca.<br/>
+                    <b>Cumpleaños:</b> Febrero de 1995<br/>
+                    <b>Lugar de Nacimiento:</b> Popayán (Cauca).<br/>
+                    <b>Celular:</b> 3503455412<br/>
+                    <b>Hobbies:</b> Programar, Cine, Escuchar Musica.<br/>
+                    <b>Rol en la Tribu Lobos Veloces:</b> Lider - Mago.
+                </p>
+            </div>
         </div>
     </div>
     <br/> <br/>
     <section id="videos">
         <h1>Videos</h1>
-        <div class="videos-youtube">   
-        </div>
     </section>
     <section id="libros">
-            <h1>Libros</h1>
-            <div class="libros-fav">   
-            </div>
-        </section>
-    
+        <h1>Libros</h1>
+        <!-- <div class="videos-youtube"> -->
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <img src="img/ardila/caballo.jpg">
+                        <div class="text">Caballo de Troya</div>
+                    </div>   
+                    <div class="mySlides fade">
+                            <div class="numbertext">2 / 3</div>
+                            <img src="img/ardila/tokyo.jpg">
+                            <div class="text">Tokyo Ghoul</div>
+                    </div> 
+                    <div class="mySlides fade">
+                            <div class="numbertext">3 / 3</div>
+                            <img src="img/ardila/hp.png">
+                            <div class="text">Harry Potter</div>
+                    </div>    
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>   
+            <!--</div> -->
+    </section>    
 </body>
 </html>

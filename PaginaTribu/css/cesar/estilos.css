@@ -1,18 +1,13 @@
-html,
-body {
+html,body {
     height: 100%;
 }
-
 
 img {
     max-width: 100%;
 }
 
-
-
 #cover-texto {
-    width: 100%;
-
+    width: 100%;  
 }
 
 #cover-texto .form-inline{
@@ -32,7 +27,7 @@ img {
     background: rgba(0,0,0,0.8);
     color: white;
     padding: 1.875rem;
-
+    
 }
 
 #footer-main {
@@ -43,13 +38,13 @@ img {
 }
 
 .wrapper {
-  width: 80%;
-  margin: auto;
-  overflow:hidden;
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
 }
 header {
-  background: rgba(0,0,0,0.9);
-  width: 100%;
-  position: fixed;
-  z-index: 10;
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
 }

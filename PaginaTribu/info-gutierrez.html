@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style-gutierrez.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <script src="js/slide.js"></script>
+    <title>Página Gutiérrez</title>
+</head>
+<body>
+    <nav class="topnav">
+        <a href=""> <span>Juan Gutiérrez</span></a> 
+        <a href="#videos">Videos</a> 
+        <a href="#libros">Libros</a> 
+        <a href="index.html">Pagina Principal</a>
+    </nav>
+    
+    <div id="inicio" class="principal">
+        <div id="container-info">
+            <img src="img/gutierrez/Curandero.png" width="250" height="400" alt="avatar-gutierrez">
+            <div class="info">
+                <p> <b>Nombre:</b> Juan David Gutiérrez.<br/>
+                    <b>Ocupación:</b> Estudiante de Ingeniería de Sistemas<br/>
+                    <b>Universidad:</b> Unicauca.<br/>
+                    <b>Cumpleaños:</b> Marzo de 1991<br/>
+                    <b>Lugar de Nacimiento:</b> Popayán (Cauca).<br/>
+                    <b>Celular:</b> 3016911986<br/>
+                    <b>Hobbies:</b> Viajar, Fútbol Sala, bicicletas.<br/>
+                    <b>Rol en la Tribu Lobos Veloces:</b> Curandero.
+                </p>
+            </div>
+        </div>
+    </div>
+    <br/> <br/>
+    <div id="libros">
+        <h1>Libros Favoritos</h1>
+        <div class="slideshow-container">
+            <div class="mySlides">
+                <img src="img/gutierrez/Dracula.jpg" width="200" height="250" alt="Dracula">
+                <div class="info-libro">
+                    <h2>Titulo: Drácula</h2>
+                    <br>
+                    <h3>
+                        Descripción: El conde Drácula viaja a Londres en busca de la mujer a la que siempre amó. El profesor Van Helsing y un grupo de valientes tratará de detener al maligno vampiro, antes de que su sed de sangre devaste la metrópoli inglesa.
+                    </h3>
+                    </div>
+                </div>  
+                <div class="mySlides">
+                    <img src="img/gutierrez/Circulo.jpeg" width="200" height="250" alt="El circulo Matarese">
+                    <div class="info-libro">
+                        <h2>Titulo: El Círculo Matarese</h2>
+                        <br>
+                        <h3>Descripción: Vasili Talienikov, ex director de la KGB y Brandon Scofield, el asesino profesional más eficaz del mundo occidental son enemigos, con un odio antiguo y profundo. Pero ahora deben sumar sus fuerzas para enfrentarse a la organización criminal más terrible de toda la historia: el círculo Matarese.</h3>
+                        </div>
+                    </div>
+                    <div class="mySlides">
+                        <img src="img/gutierrez/Ana.jpg" width="200" height="250" alt="Ana Frank">
+                        <div class="info-libro">
+                            <h2>Titulo: El Diario de Ana Frank</h2>
+                            <br>
+                            <h3>Descripción: Esta es la edición de los diarios personales escritos por Ana Frank entre el 12 de junio de 1942 y el 1 de agosto de 1944 en un total de tres cuadernos conservados en la actualidad,1​ donde relata su historia como adolescente y los dos años en que permaneció oculta de los nazis, con su familia alemana de origen judío, en Ámsterdam durante la Segunda Guerra Mundial. </h3>
+                            </div>
+                        </div>      
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>        
+                </div>
+                <div id="videos">
+                    <h1>Videos Favoritos</h1>
+                    <div class="slideshow-containerV">
+                        <div class="mySlidesV">
+                            <iframe
+                                src="https://www.youtube.com/embed/04mfKJWDSzI"  
+                                allowfullscreen>
+                            </iframe>    
+                            <div class="info-libroV">
+                                <h2>"On Melancholy Hill" - Gorillaz</h2>
+                            </div>
+                        </div>  
+                        <div class="mySlidesV">
+                            <iframe
+                                src="https://www.youtube.com/embed/r3mS0M88ZQE" 
+                                allowfullscreen>
+                            </iframe>
+                            <div class="info-libroV">
+                                <h2>"Man On Fire" - Edward Sharpe and the Magnetic Zeros</h2>
+                            </div>
+                        </div>
+                        <div class="mySlidesV">
+                            <iframe
+                                src="https://www.youtube.com/embed/eCOkk2VyZSc" 
+                                allowfullscreen>
+                            </iframe>
+                                <div class="info-libroV">
+                                    <h2>Greg Minnaar for Gamut USA</h2>
+                                </div>
+                            </div>      
+                        <a class="prev" onclick="plusSlidesV(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlidesV(1)">&#10095;</a>
+                    </div> 
+            </div>   
+            <footer id="footer-main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <p>Creada por : Lobos Veloces</p>
+                                
+                            </div>
+                            <div class="col-sm-3">
+                                <ul class="list-unstyled">
+                                    <li><a href="#inicio">Inicio</a></li>
+                                    <li><a href="#videos">Videos</a></li>
+                                    <li><a href="#libros">Libros</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3">
+                                <h6>Info</h6>
+                                <p>Página Web de la Tribu Lobos Veloces, elaborada con propósitos educativos para la materia Ingeniería del Software 3 del Programa Ingeniería de Sistemas de la Univesidad del Cauca.</p>
+                            </div>
+                        </div>
+                    </div>
+                </footer> 
+    </body>
+
+</html>

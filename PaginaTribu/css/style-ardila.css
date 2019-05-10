@@ -108,6 +108,30 @@ body {
     background-color: rgb(185, 18, 18);
 }
 
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+#videos{
+    padding-bottom: 10px; 
+}
+
 
 
 

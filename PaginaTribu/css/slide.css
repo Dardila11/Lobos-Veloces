@@ -21,6 +21,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
 }
 
 .mySlides{
@@ -97,12 +98,35 @@
     position: absolute;
 }
 
+.mySlidesV h2{
+    padding-top: 10px;
+}
+
 .mySlidesV {
-    /*display: none;*/
+    display: none;
 }
 
 .mySlidesV img{
     top: 30px;
     left: 10px;
     position: absolute;
+}
+
+iframe{
+    width: 250;
+    height: 250;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+}
+
+.info-libroV{
+    text-align: center;
+    left: 240px;
+    top: 100px;
+    color: white;
+    
 }

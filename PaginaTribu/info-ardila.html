@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
         <a href="index.html">Pagina Principal</a>
     </nav>
     
-    <div class="principal">
+    <div id="inicio" class="principal">
         <div id="container-info">
             <img src="img/mage.png" width="250" height="400" alt="avatar-ardila">
             <div class="info">
@@ -41,72 +41,96 @@
                 <img src="img/ardila/hp.png" width="200" height="250" alt="harry potter">
                 <div class="info-libro">
                     <h2>Titulo: Harry Potter</h2>
-                    <h3>Descripción: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Doloribus recusandae officia, fugiat inventore perspiciatis debitis 
-                        eaque numquam ea porro rem.</h3>
-                    <h4>Link: <a href="https://amzn.to/2VUZngf">Harry Potter Collection</a></h4>
-                </div>
-            </div>  
-            <div class="mySlides">
-                <img src="img/ardila/caballo.jpg" width="200" height="250" alt="Caballo de Troya">
-                <div class="info-libro">
-                    <h2>Titulo: Caballo de Troya</h2>
-                    <h3>Descripción: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Doloribus recusandae officia, fugiat inventore perspiciatis debitis 
-                            eaque numquam ea porro rem.</h3>
-                    <h4>Link: <a href="https://amzn.to/2LxE54d">Caballo de Troya</a></h4>
-                </div>
-            </div>
-            <div class="mySlides">
-                    <img src="img/ardila/tokyo.jpg" width="200" height="250" alt="Tokyo Ghoul">
-                    <div class="info-libro">
-                        <h2>Titulo: Tokyo Ghoul</h2>
-                        <h3>Descripción: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                Doloribus recusandae officia, fugiat inventore perspiciatis debitis 
-                                eaque numquam ea porro rem.</h3>
-                        <h4>Link: <a href="https://amzn.to/2vURvwp">Tokyo Ghoul</a></h4>
+                    <h3>Descripción: "Harry Potter vive con su tía, su tío y su primo porque sus 
+                        padres murieron en un accidente de coche, o al menos eso es lo que le han dicho. 
+                        A los Dursley no les gusta que Harry les haga preguntas; de hecho, parece que no les 
+                        gusta nada de él.
+                    </h3>
+                        <h4>Link: <a href="https://amzn.to/2VUZngf">Harry Potter Collection</a></h4>
                     </div>
-                </div>      
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>      
-        </section>
-        <section id="videos">
-            <h1>Videos Favoritos</h1>
-            <div class="slideshow-containerV">
-                    <div class="mySlidesV">
-                        <img src="img/ardila/hp.png" width="200" height="250" alt="harry potter">
-                        <div class="info-libro">
-                            <h2>Titulo: Harry Potter</h2>
-                            <h3>Descripción: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                Doloribus recusandae officia, fugiat inventore perspiciatis debitis 
-                                eaque numquam ea porro rem.</h3>
-                            <h4>Link: <a href="https://amzn.to/2VUZngf">Harry Potter Collection</a></h4>
-                        </div>
-                    </div>  
-                    <div class="mySlidesV">
-                        <img src="img/ardila/caballo.jpg" width="200" height="250" alt="Caballo de Troya">
-                        <div class="info-libro">
-                            <h2>Titulo: Caballo de Troya</h2>
-                            <h3>Descripción: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    Doloribus recusandae officia, fugiat inventore perspiciatis debitis 
-                                    eaque numquam ea porro rem.</h3>
+                </div>  
+                <div class="mySlides">
+                    <img src="img/ardila/caballo.jpg" width="200" height="250" alt="Caballo de Troya">
+                    <div class="info-libro">
+                        <h2>Titulo: Caballo de Troya</h2>
+                        <h3>Descripción: En 1973 las Fuerzas Aéreas norteamericanas, después de varios años 
+                            de preparación y tras un sinfín de peripecias, ejecutaron en pleno corazón de 
+                            Israel uno de sus proyectos «supersecretos» que fue bautizado, precisamente, 
+                            como Operación Caballo de Troya</h3>
                             <h4>Link: <a href="https://amzn.to/2LxE54d">Caballo de Troya</a></h4>
                         </div>
                     </div>
-                    <div class="mySlidesV">
-                            <img src="img/ardila/tokyo.jpg" width="200" height="250" alt="Tokyo Ghoul">
-                            <div class="info-libro">
-                                <h2>Titulo: Tokyo Ghoul</h2>
-                                <h3>Descripción: Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                        Doloribus recusandae officia, fugiat inventore perspiciatis debitis 
-                                        eaque numquam ea porro rem.</h3>
+                    <div class="mySlides">
+                        <img src="img/ardila/tokyo.jpg" width="200" height="250" alt="Tokyo Ghoul">
+                        <div class="info-libro">
+                            <h2>Titulo: Tokyo Ghoul</h2>
+                            <h3>Descripción: Strange murders are happening in Tokyo. 
+                                Due to liquid evidence at the scene, the police conclude the attacks are 
+                                the results of 'eater' type ghouls. College buddies Kaneki and Hide come 
+                                up with the idea that ghouls are imitating humans so that's why they haven't 
+                                ever seen one.</h3>
                                 <h4>Link: <a href="https://amzn.to/2vURvwp">Tokyo Ghoul</a></h4>
                             </div>
                         </div>      
-                    <a class="prev" onclick="plusSlidesV(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlidesV(1)">&#10095;</a>
-                </div> 
-        </section>    
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>      
+                </div>
+                <div id="videos">
+                    <h1>Videos Favoritos</h1>
+                    <div class="slideshow-containerV">
+                        <div class="mySlidesV">
+                            <iframe
+                                src="https://www.youtube.com/embed/IYIBe7jdVQ8"  
+                                allowfullscreen>
+                            </iframe>    
+                            <div class="info-libroV">
+                                <h2>"The Runner" - Zack Hemsey</h2>
+                            </div>
+                        </div>  
+                        <div class="mySlidesV">
+                            <iframe
+                                src="https://www.youtube.com/embed/ytQ5CYE1VZw" 
+                                allowfullscreen>
+                            </iframe>
+                            <div class="info-libroV">
+                                <h2>"Till I Collapse" - Eminem</h2>
+                            </div>
+                        </div>
+                        <div class="mySlidesV">
+                            <iframe
+                                src="https://www.youtube.com/embed/LCkyW7RE6Wk" 
+                                allowfullscreen>
+                            </iframe>
+                                <div class="info-libroV">
+                                    <h2>"Way Down We Go" - KALEO</h2>
+                                </div>
+                            </div>      
+                        <a class="prev" onclick="plusSlidesV(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlidesV(1)">&#10095;</a>
+                    </div> 
+            </div>   
+            <footer id="footer-main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <p>Creada por : Lobos Veloces</p>
+                                
+                            </div>
+                            <div class="col-sm-3">
+                                <ul class="list-unstyled">
+                                    <li><a href="#inicio">Inicio</a></li>
+                                    <li><a href="#videos">Videos</a></li>
+                                    <li><a href="#libros">Libros</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3">
+                                <h6>Info</h6>
+                                <p>Página Web de la Tribu Lobos Veloces, elaborada con propósitos educativos para la materia Ingeniería del Software 3 del Programa Ingeniería de Sistemas de la Univesidad del Cauca.</p>
+                            </div>
+                        </div>
+                    </div>
+                </footer> 
     </body>
-    </html>
+
+</html>

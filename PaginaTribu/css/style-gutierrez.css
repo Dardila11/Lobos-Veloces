@@ -118,6 +118,7 @@ body {
 .list-unstyled {
     padding-left: 0;
     list-style: none;
+    column-count: 3;
 }
 
 .container {
@@ -130,4 +131,36 @@ body {
 
 #videos{
     padding-bottom: 10px; 
+}
+a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.col-sm-3 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    
+}
+.col-sm-3 p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.col-sm-3 h6{
+    font-size: 2rem;
+}
+#footer-main .container  {
+    width: 1140px;
+    max-width: 100%;
 }
